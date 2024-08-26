@@ -1039,8 +1039,8 @@ importers:
         specifier: ^4.7.6
         version: 4.7.6
       happy-dom:
-        specifier: ^14.12.3
-        version: 14.12.3
+        specifier: ^15.0.0
+        version: 15.0.0
       jsdom:
         specifier: ^25.0.0
         version: 25.0.0
@@ -6212,10 +6212,6 @@ packages:
 
   handle-thing@2.0.1:
     resolution: {integrity: sha512-9Qn4yBxelxoh2Ow62nP+Ka/kMnOXRi8BXnRaUwezLNhqelnN49xKz4F/dPP8OYLxLxq6JDtZb2i9XznUQbNPTg==}
-
-  happy-dom@14.12.3:
-    resolution: {integrity: sha512-vsYlEs3E9gLwA1Hp+w3qzu+RUDFf4VTT8cyKqVICoZ2k7WM++Qyd2LwzyTi5bqMJFiIC/vNpTDYuxdreENRK/g==}
-    engines: {node: '>=16.0.0'}
 
   happy-dom@15.0.0:
     resolution: {integrity: sha512-DsvANUcxxY20iCo3Yllm7dqwzPVPduGfVFxa7mONwMBLczFeQgkN0LpDir1kIY322JMh+hrcPV3aGLyHCESDlA==}
@@ -15345,12 +15341,6 @@ snapshots:
       duplexer: 0.1.2
 
   handle-thing@2.0.1: {}
-
-  happy-dom@14.12.3:
-    dependencies:
-      entities: 4.5.0
-      webidl-conversions: 7.0.0
-      whatwg-mimetype: 3.0.0
 
   happy-dom@15.0.0:
     dependencies:
